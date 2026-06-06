@@ -1,6 +1,9 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
+import herobg from "./herobg.png";
+import cloud from "./cloud.svg";
+import system from "./system.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -29,11 +32,16 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import budgetBuddy from "./budget-buddy.svg";
+import externalLink from "./external-link.svg";
 
 export {
   logo,
   backend,
   creator,
+  herobg,
+  cloud,
+  system,
   mobile,
   web,
   github,
@@ -56,6 +64,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  budgetBuddy,
+  externalLink,
   carrent,
   jobit,
   tripguide,

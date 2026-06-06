@@ -3,22 +3,14 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+  cloud,
+  system,
+  logo,
   meta,
   starbucks,
   tesla,
   shopify,
+  budgetBuddy,
   carrent,
   jobit,
   tripguide,
@@ -42,165 +34,171 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Cloud & DevOps",
+    icon: cloud,
+  },
+  {
+    title: "System Design",
+    icon: system,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    category: "Frontend",
+    items: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS"],
   },
   {
-    name: "CSS 3",
-    icon: css,
+    category: "Backend",
+    items: ["Node.js", "Express.js"],
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    category: "Database",
+    items: ["MongoDB", "SQL"],
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    category: "Authentication & APIs",
+    items: ["JWT Authentication", "REST APIs"],
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    category: "Cloud & DevOps",
+    items: [
+      "AWS (Fundamentals)",
+      "Docker",
+      "Kubernetes (Fundamentals)",
+      "Render",
+      "MongoDB Atlas",
+    ],
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    category: "Programming",
+    items: ["Java", "Data Structures & Algorithms"],
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    category: "Tools",
+    items: ["Git", "GitHub", "Postman", "VS Code", "Jira"],
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Frontend Developer Intern",
+    company_name: "Next24Tech Technology & Services LLP",
+    icon: logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jul 2025 – Sep 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed responsive frontend web applications using HTML, CSS, and JavaScript.",
+      "Worked on projects including Portfolio Websites, E-Commerce interfaces, and E-Learning platform frontends.",
+      "Implemented responsive UI/UX layouts and improved frontend structuring using modern web development practices.",
+      "Strengthened understanding of real-world frontend workflows and interactive user interface development.",
     ],
   },
+  // {
+  //   title: "Java Developer Trainee",
+  //   company_name: "Axcentra",
+  //   icon: logo,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2026 – Apr 2026",
+  //   points: [
+  //     "Built foundational knowledge in Java programming and Object-Oriented Programming (OOP) concepts.",
+  //     "Worked with core Java concepts including classes, objects, inheritance, polymorphism, and exception handling.",
+  //     "Developed logical problem-solving skills and understanding of structured software development principles.",
+  //     "Improved programming fundamentals through practical coding exercises and mini-project implementations.",
+  //   ],
+  // },
+  // {
+  //   title: "AI/ML Trainee",
+  //   company_name: "Nirmaan Organization",
+  //   icon: logo,
+  //   iconBg: "#383E56",
+  //   date: "Apr 2026 – Present",
+  //   points: [
+  //     "Selected through a qualification-based assessment for an Artificial Intelligence & Machine Learning training program.",
+  //     "Exploring Machine Learning fundamentals, Python workflows, and AI-driven problem-solving techniques.",
+  //     "Working on practical AI/ML concepts including data preprocessing and intelligent application development.",
+  //     "Gaining exposure to modern AI technologies through collaborative and project-oriented learning.",
+  //   ],
+  // },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Web Development Trainee",
+    company_name: "Skillotech",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2025 – Jan 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned and applied frontend web development concepts using HTML, CSS, and JavaScript.",
+      "Built responsive web interfaces and interactive UI components through hands-on project development.",
+      "Worked on improving UI/UX structuring, responsive layouts, and modern web design practices.",
+      "Strengthened understanding of frontend development workflows and real-world implementation practices.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "MERN Stack Developer Intern",
+    company_name: "Tetra Trion Technologies Pvt. Ltd.",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2026 – May 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and contributing to full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, and Node.js).",
+      "Worked on projects including an E-Commerce platform and a Real-Time Chat Application with scalable backend integration.",
+      "Implemented REST APIs, authentication workflows, middleware, and database operations using modern development practices.",
+      "Gaining hands-on experience in scalable application architecture, deployment workflows, and collaborative software development.",
     ],
   },
 ];
 
 const testimonials = [
   {
+    name: "AWS Cloud Technical Essentials",
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Built foundational knowledge of cloud computing concepts and AWS core services.\nExplored cloud infrastructure, deployment basics, scalability, and modern cloud-based application workflows.",
+    // designation: "Certificate",
+    // company: "Skillotech",
   },
   {
+    name: "Fundamentals of Generative AI for Beginners",
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Explored the fundamentals of Generative AI, modern AI applications, and prompt-based interaction workflows. \nGained foundational understanding of AI-powered systems and their role in modern software development.",
+    // designation: "Certificate",
+    // company: "Skillotech",
   },
   {
+    name: "Docker Fundamentals",
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Learned the fundamentals of Docker, containerization, and modern application deployment workflows. \nExplored how containers improve scalability, portability, and consistency across development environments.",
+    // designation: "Certificate",
+    // company: "Axcentra",
+  },
+  {
+    name: "Jira",
+    testimonial:
+      "Learned the fundamentals of Agile project management and team collaboration using Jira. \nGained exposure to sprint planning, issue tracking, workflow management, and software development lifecycle practices.",
+    // designation: "Certificate",
+    // company: "Skillotech",
+  },
+  {
+    name: "Prompt Engineering",
+    testimonial:
+      "Explored prompt engineering concepts and effective interaction techniques for Generative AI systems. \nLearned how structured prompts can improve AI-assisted problem-solving and software development workflows.",
+    // designation: "Certificate",
+    // company: "Skillotech",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Budget Buddy - Smart Expense Tracker",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Budget Buddy is a MERN stack-based financial management platform that enables users to track expenses, manage budgets, monitor savings goals, and gain financial insights through secure authentication and interactive analytics dashboards. 🚀",
     tags: [
       {
         name: "react",
@@ -214,52 +212,61 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "nodejs",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "express",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: budgetBuddy,
+    live_link: "https://budget-buddy-mern.vercel.app/auth",
+    source_code_link: "https://github.com/debadatta77/Budget-Buddy-MERN",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Job IT",
+  //   description:
+  //     "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "restapi",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "scss",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: jobit,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
