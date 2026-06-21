@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+import { computerFallback } from "../../assets";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("/desktop_pc/scene.gltf");
@@ -64,6 +65,21 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  if (isMobile) {
+    return (
+      <div className="absolute inset-x-0 bottom-[12%] top-[250px] flex justify-center items-center pointer-events-none z-10 px-4">
+        <img
+          src={computerFallback}
+          alt="desktop pc fallback"
+          className="w-full max-w-[450px] object-contain opacity-80"
+          style={{
+            filter: "drop-shadow(0 0 30px rgba(145, 94, 255, 0.45))",
+          }}
+        />
+      </div>
+    );
+  }
+
   return (
     <Canvas
       frameloop="demand"
@@ -85,5 +101,6 @@ const ComputersCanvas = () => {
     </Canvas>
   );
 };
+
 
 export default ComputersCanvas;

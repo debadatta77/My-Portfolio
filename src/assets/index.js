@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import budgetBuddy from "./budget-buddy.svg";
 import externalLink from "./external-link.svg";
+import computerFallback from "./computer_fallback.png";
 
 export {
   logo,
@@ -66,7 +67,9 @@ export {
   tesla,
   budgetBuddy,
   externalLink,
+  computerFallback,
   carrent,
   jobit,
   tripguide,
 };
+
