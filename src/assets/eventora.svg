@@ -1,0 +1,76 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="720" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="0.5" stop-color="#111827" />
+      <stop offset="1" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="accentA" x1="160" y1="120" x2="640" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316" />
+      <stop offset="1" stop-color="#FB7185" />
+    </linearGradient>
+    <linearGradient id="accentB" x1="180" y1="160" x2="620" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="1" stop-color="#22C55E" />
+    </linearGradient>
+    <filter id="shadow" x="120" y="100" width="560" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" rx="24" fill="url(#bg)"/>
+  <circle cx="125" cy="110" r="70" fill="#F97316" opacity="0.12"/>
+  <circle cx="690" cy="115" r="92" fill="#38BDF8" opacity="0.10"/>
+  <circle cx="710" cy="500" r="120" fill="#FB7185" opacity="0.08"/>
+  <circle cx="105" cy="505" r="95" fill="#22C55E" opacity="0.08"/>
+
+  <g filter="url(#shadow)" transform="translate(92,78)">
+    <rect x="0" y="0" width="616" height="444" rx="28" fill="#0B1220" opacity="0.94" stroke="#334155" stroke-width="1.5"/>
+
+    <g transform="translate(36,34)">
+      <text x="0" y="0" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Eventora</text>
+      <text x="0" y="34" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="15">Full-Stack Event Booking Platform</text>
+    </g>
+
+    <g transform="translate(36,94)">
+      <rect x="0" y="0" width="380" height="272" rx="22" fill="#111827" stroke="#1F2937" stroke-width="1.25"/>
+      <rect x="22" y="22" width="336" height="76" rx="18" fill="url(#accentA)" opacity="0.95"/>
+      <circle cx="66" cy="60" r="20" fill="#FFFFFF" opacity="0.18"/>
+      <rect x="98" y="40" width="150" height="14" rx="7" fill="#FFFFFF" opacity="0.88"/>
+      <rect x="98" y="62" width="116" height="10" rx="5" fill="#FFFFFF" opacity="0.55"/>
+
+      <g transform="translate(22,116)">
+        <rect x="0" y="0" width="92" height="120" rx="16" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+        <rect x="14" y="16" width="64" height="54" rx="12" fill="#38BDF8" opacity="0.9"/>
+        <rect x="18" y="80" width="56" height="10" rx="5" fill="#E2E8F0" opacity="0.9"/>
+        <rect x="18" y="98" width="34" height="8" rx="4" fill="#94A3B8"/>
+
+        <rect x="108" y="0" width="92" height="120" rx="16" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+        <rect x="122" y="16" width="64" height="54" rx="12" fill="#F97316" opacity="0.92"/>
+        <rect x="126" y="80" width="54" height="10" rx="5" fill="#E2E8F0" opacity="0.9"/>
+        <rect x="126" y="98" width="38" height="8" rx="4" fill="#94A3B8"/>
+
+        <rect x="216" y="0" width="92" height="120" rx="16" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+        <rect x="230" y="16" width="64" height="54" rx="12" fill="#22C55E" opacity="0.92"/>
+        <rect x="234" y="80" width="48" height="10" rx="5" fill="#E2E8F0" opacity="0.9"/>
+        <rect x="234" y="98" width="30" height="8" rx="4" fill="#94A3B8"/>
+      </g>
+    </g>
+
+    <g transform="translate(436,94)">
+      <rect x="0" y="0" width="144" height="272" rx="22" fill="#111827" stroke="#1F2937" stroke-width="1.25"/>
+      <rect x="18" y="18" width="108" height="28" rx="14" fill="url(#accentB)" opacity="0.95"/>
+      <rect x="18" y="60" width="108" height="18" rx="9" fill="#334155"/>
+      <rect x="18" y="88" width="92" height="18" rx="9" fill="#334155"/>
+      <rect x="18" y="116" width="100" height="18" rx="9" fill="#334155"/>
+      <rect x="18" y="154" width="108" height="92" rx="18" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <path d="M40 186c0-10 8-18 18-18s18 8 18 18-8 18-18 18-18-8-18-18Zm34-18 18 18-8 8-18-18 8-8Zm-5 24c-4 5-10 8-17 8-12 0-22-10-22-22 0-7 3-13 8-17l9 9c-2 2-3 5-3 8 0 6 5 11 11 11 3 0 6-1 8-3l8 6Z" fill="#FFFFFF" opacity="0.9"/>
+      <rect x="18" y="254" width="108" height="0" rx="0" fill="#000"/>
+    </g>
+
+    <g transform="translate(36,392)">
+      <rect x="0" y="0" width="544" height="28" rx="14" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="19" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="13">Event management • Ticketing • Registrations • Analytics • Payments</text>
+    </g>
+  </g>
+</svg>

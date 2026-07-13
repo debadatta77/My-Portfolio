@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import budgetBuddy from "./budget-buddy.svg";
+import eventora from "./eventora.svg";
 import externalLink from "./external-link.svg";
 import computerFallback from "./computer_fallback.png";
 
@@ -66,10 +67,10 @@ export {
   starbucks,
   tesla,
   budgetBuddy,
+  eventora,
   externalLink,
   computerFallback,
   carrent,
   jobit,
   tripguide,
 };
-

@@ -6,6 +6,7 @@ import {
   cloud,
   system,
   logo,
+  eventora,
   meta,
   starbucks,
   tesla,
@@ -224,6 +225,36 @@ const projects = [
     image: budgetBuddy,
     live_link: "https://budget-buddy-mern.vercel.app/auth",
     source_code_link: "https://github.com/debadatta77/Budget-Buddy-MERN",
+  },
+  {
+    name: "Eventora – Full-Stack Event Management Platform",
+    description:
+      "Eventora is a MERN stack-based event management platform that enables users to create, manage, and promote events while providing seamless registration and ticketing experiences. 🎉",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "express",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: eventora,
+    live_link: "https://eventora-one-alpha.vercel.app/",
+    source_code_link: "https://github.com/debadatta77/Eventora",
   },
   // {
   //   name: "Job IT",
