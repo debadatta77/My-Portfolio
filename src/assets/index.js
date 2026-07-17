@@ -34,6 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import budgetBuddy from "./budget-buddy.svg";
 import eventora from "./eventora.svg";
+import chatflix from "./chatflix.svg";
 import externalLink from "./external-link.svg";
 import computerFallback from "./computer_fallback.png";
 
@@ -68,6 +69,7 @@ export {
   tesla,
   budgetBuddy,
   eventora,
+  chatflix,
   externalLink,
   computerFallback,
   carrent,

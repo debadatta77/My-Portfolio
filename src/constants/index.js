@@ -7,6 +7,7 @@ import {
   system,
   logo,
   eventora,
+  chatflix,
   meta,
   starbucks,
   tesla,
@@ -255,6 +256,36 @@ const projects = [
     image: eventora,
     live_link: "https://eventora-one-alpha.vercel.app/",
     source_code_link: "https://github.com/debadatta77/Eventora",
+  },
+  {
+    name: "ChatFlix – Real-Time Messaging Platform",
+    description:
+      "ChatFlix is a MERN stack-based real-time messaging platform that enables users to connect instantly through secure authentication, Socket.IO-powered real-time communication, and a clean, responsive interface for seamless conversations. 💬🚀",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "express",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: chatflix,
+    live_link: "https://chat-flix-one.vercel.app",
+    source_code_link: "https://github.com/Priyansu-Sekhar/chatFlix",
   },
   // {
   //   name: "Job IT",
