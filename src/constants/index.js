@@ -198,9 +198,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Budget Buddy - Smart Expense Tracker",
+    name: "Budget Buddy – Expense Tracker",
     description:
-      "Budget Buddy is a MERN stack-based financial management platform that enables users to track expenses, manage budgets, monitor savings goals, and gain financial insights through secure authentication and interactive analytics dashboards. 🚀",
+      "Budget Buddy is a MERN stack financial management platform for tracking expenses, managing budgets, monitoring savings goals, and gaining insights through interactive analytics. 🚀",
     tags: [
       {
         name: "react",
@@ -217,10 +217,6 @@ const projects = [
       {
         name: "nodejs",
         color: "orange-text-gradient",
-      },
-      {
-        name: "express",
-        color: "yellow-text-gradient",
       },
     ],
     image: budgetBuddy,
@@ -228,9 +224,9 @@ const projects = [
     source_code_link: "https://github.com/debadatta77/Budget-Buddy-MERN",
   },
   {
-    name: "Eventora – Full-Stack Event Management Platform",
+    name: "Eventora – Event Booking Platform",
     description:
-      "Eventora is a MERN stack-based event management platform that enables users to create, manage, and promote events while providing seamless registration and ticketing experiences. 🎉",
+      "Eventora is a MERN stack event management platform that enables users to create, manage, promote events, and provide seamless registration and ticketing experiences. 🎉",
     tags: [
       {
         name: "react",
@@ -248,19 +244,15 @@ const projects = [
         name: "nodejs",
         color: "orange-text-gradient",
       },
-      {
-        name: "express",
-        color: "yellow-text-gradient",
-      },
     ],
     image: eventora,
     live_link: "https://eventora-one-alpha.vercel.app/",
     source_code_link: "https://github.com/debadatta77/Eventora",
   },
   {
-    name: "ChatFlix – Real-Time Messaging Platform",
+    name: "ChatFlix – Messaging Platform",
     description:
-      "ChatFlix is a MERN stack-based real-time messaging platform that enables users to connect instantly through secure authentication, Socket.IO-powered real-time communication, and a clean, responsive interface for seamless conversations. 💬🚀",
+      "ChatFlix is a MERN stack real-time chat platform that connects users instantly via secure authentication, Socket.IO communication, and a responsive chat interface. 💬🚀",
     tags: [
       {
         name: "react",
@@ -277,10 +269,6 @@ const projects = [
       {
         name: "nodejs",
         color: "orange-text-gradient",
-      },
-      {
-        name: "express",
-        color: "yellow-text-gradient",
       },
     ],
     image: chatflix,

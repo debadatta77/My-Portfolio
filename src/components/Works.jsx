@@ -18,51 +18,53 @@ const ProjectCard = ({
   live_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
-        <div className="relative w-full h-[230px]">
-          <img
-            src={image}
-            alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="flex w-full sm:w-[360px]">
+      <div className="bg-tertiary p-5 rounded-2xl w-full flex flex-col justify-between h-full">
+        <div>
+          <div className="relative w-full h-[230px]">
+            <img
+              src={image}
+              alt="project_image"
+              className="w-full h-full object-cover rounded-2xl"
+            />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div className="flex gap-2">
-              {live_link && (
-                <div
-                  onClick={() => window.open(live_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                  title="Live demo"
-                >
-                  <img
-                    src={externalLink}
-                    alt="live demo"
-                    className="w-1/2 h-1/2 object-contain"
-                  />
-                </div>
-              )}
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div className="flex gap-2">
+                {live_link && (
+                  <div
+                    onClick={() => window.open(live_link, "_blank")}
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                    title="Live demo"
+                  >
+                    <img
+                      src={externalLink}
+                      alt="live demo"
+                      className="w-1/2 h-1/2 object-contain"
+                    />
+                  </div>
+                )}
 
-              {source_code_link && (
-                <div
-                  onClick={() => window.open(source_code_link, "_blank")}
-                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                  title="Source code"
-                >
-                  <img
-                    src={github}
-                    alt="source code"
-                    className="w-1/2 h-1/2 object-contain"
-                  />
-                </div>
-              )}
+                {source_code_link && (
+                  <div
+                    onClick={() => window.open(source_code_link, "_blank")}
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                    title="Source code"
+                  >
+                    <img
+                      src={github}
+                      alt="source code"
+                      className="w-1/2 h-1/2 object-contain"
+                    />
+                  </div>
+                )}
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <div className="mt-5">
+            <h3 className="text-white font-bold text-[24px]">{name}</h3>
+            <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          </div>
         </div>
 
         <div className="mt-4 flex flex-wrap gap-2">
